@@ -1,1 +1,1 @@
-# editorconfigration
+# editor configration
