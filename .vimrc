@@ -43,9 +43,11 @@ Plugin 'fholgado/minibufexpl.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'bling/vim-airline'
 
 " molokai
 colorscheme molokai
+set t_Co=256
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -102,3 +104,7 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|so|dll)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
+
+" airline
+let g:airline_powerline_fonts = 1
+
